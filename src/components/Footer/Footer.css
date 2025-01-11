@@ -1,0 +1,40 @@
+.bg-dark {
+    background-color: #000 !important;
+  }
+  
+  .btn-gradient {
+    background: linear-gradient(to right, #32cd32, #1e90ff);
+    border: none;
+  }
+  
+  .text-muted {
+    color: #b3b3b3 !important;
+  }
+  
+  .text-muted:hover {
+    color: #32cd32 !important;
+  }
+  
+  .social-icons a {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: white;
+  }
+  
+  .hover-text-green:hover {
+    color: #32cd32 !important;
+  }
+  
+  @media (min-width: 768px) {
+    .flex-md-row {
+      flex-direction: row;
+    }
+  
+    .gap-4 {
+      gap: 20px;
+    }
+  }
+  
